@@ -1,0 +1,105 @@
+#header {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav {
+    /* height: 9vmax; */
+    background-color: #FFA500;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.bar {
+    font-size: 4vmax;
+}
+
+nav .logo-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    order: 1;
+}
+
+nav .logo img {
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 10vmax;
+}
+
+nav .menu-box {
+    display: flex;
+    gap: 45px;
+    order: 2;
+    background-color: #FFA500;
+}
+
+nav .login-btn {
+    order: 3;
+    font-size: 2vmax;
+}
+
+.login-btn a {
+    margin-left: -7vmax;
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+nav .bar {
+    display: none;
+}
+
+nav .menu-box-active {
+    display: flex;
+    background-color: #FFA500;
+    z-index: 500;
+}
+
+.menu-box div a {
+    text-decoration: none;
+}
+
+
+@media (max-width : 600px) {
+    nav .login-btn {
+        font-size: 4vmax;
+    }
+
+    nav .menu-box {
+        order: 3;
+        padding: 5vmax;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 7vmax;
+        left: 2vmax;
+    }
+
+    nav .menu-box-active {
+        display: none;
+    }
+
+    nav .bar {
+        display: block;
+    }
+
+    .menu-box div a {
+        font: 600 2vmax "Tiro Tamil";
+    }
+}

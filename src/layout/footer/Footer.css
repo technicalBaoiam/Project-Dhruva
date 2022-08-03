@@ -1,0 +1,131 @@
+.footer{
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.833);
+    /* margin-top: 10vmax; */
+    padding-bottom: 3vmax;
+    z-index: 50;
+}
+
+.first-footer h1{
+    color: white;
+    font: 400 1.5vmax "Tiro Tamil";
+}
+
+.first-footer i{
+    margin-right: 0.5vmax;
+}
+
+.first-footer h1:last-child{
+    font: 400 2vmax "Poppins";
+}
+
+.second-footer{
+    display: block;
+}
+
+.second-footer h2{
+    color: white;
+    font: 500 2vmax "Tiro Tamil";
+}
+
+.second-footer div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1.2vmax;
+}
+
+.second-footer div a{
+    margin-left: 1.5vmax;
+    text-decoration: none;
+    color: white;
+    font: 200 1.2vmax "Tiro Tamil";
+}
+
+.third-footer h1{
+    font: 700 2.5vmax 'Dancing Script';
+    color: white;
+    text-align: center;
+}
+
+.third-footer i{
+    color: white;
+    font-size: 2vmax;
+    margin: 1vmax;
+    margin-top: -2vmax;  
+    transition: all 0.5s;
+}
+
+.third-footer i:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+
+.third-footer img{
+    height: 4vmax;
+}
+
+.third-footer h1{
+    font: 500 2vmax 'Uchen';
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{    
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+
+    .second-footer{
+        order: -1;
+    }
+
+    .second-footer h2{
+        font: 500 3vmax "Tiro Tamil";
+    }
+
+    .second-footer div a{
+        font: 300 2vmax "Tiro Tamil";
+    }
+
+
+    .first-footer{
+        order: 2;
+        text-align: center;
+        margin-top: 2vmax;
+    }
+
+    .first-footer h1{
+        font: 400 2.5vmax "Tiro Tamil";
+    }
+
+    .first-footer h1:last-child{
+        font: 400 2.5vmax "Poppins";
+    }
+
+    .third-footer{
+        order: 3;
+        text-align: center;
+    }
+
+    .third-footer h1{
+        font-size: 4vmax;
+    }
+
+    .third-footer i{
+        font-size: 4vmax;
+    }
+
+    .third-footer h1{
+        font-size: 3vmax;
+    }
+
+    .third-footer img{
+        margin-top: -2vmax;
+        width: 25vmax;
+        height: 10vmax;
+    }
+}

@@ -1,0 +1,259 @@
+.loginSignUpContainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    /* position: fixed; */
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.loginSignUpBox {
+    background-color: white;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.login_signup_toggle {
+    display: flex;
+    height: 4vmax;
+}
+
+.login_signup_toggle>p {
+    color: rgba(0, 0, 0, 0.78);
+    font: 400 1.2vmax "Joan";
+    transition: all 0.5s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.login_signup_toggle>p:hover {
+    color: #FFA500;
+}
+
+.loginSignUpBox>div>button {
+    background-color: #FFA500;
+    height: 3px;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+}
+
+.loginForm,
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2vmax;
+    height: 70%;
+    transition: all 0.5s;
+}
+
+.signUpForm {
+    transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginForm>div,
+.signUpForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.loginForm>div>input,
+.signUpForm>div>input,
+.signUpForm>div>select {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    font: 300 1.1vmax "Tiro Tamil";
+    color: rgba(0, 0, 0, 0.548);
+    outline: none;
+}
+
+.signUpForm>div>select {
+    background-color: white;
+}
+
+.loginForm>div>svg,
+.signUpForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.8vmax;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.loginForm>a {
+    color: rgba(0, 0, 0, 0.78);
+    text-decoration: none;
+    align-self: flex-end;
+    transition: all 0.5s;
+    font: 500 1.1vmax "Tiro Tamil";
+}
+
+.loginForm>a:hover {
+    color: #d68e0a;
+}
+
+#registerImage>img {
+    width: 3vmax;
+    border-radius: 100%;
+}
+
+#registerImage>input {
+    display: flex;
+    padding: 0%;
+}
+
+.loginBtn,
+.signUpBtn {
+    border: none;
+    background-color: #FFA500;
+    color: white;
+    width: 100%;
+    padding: 0.8vmax;
+    font: 400 1.8vmax "Tiro Tamil";
+    border-radius: 25px;
+    transition: all 0.5s;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.signUpBtn {
+    margin-top: 2vmax;
+}
+
+.googleLoginBtn,
+.googleSignUpBtn {
+    border: none;
+    background-color: white;
+    color: #FFA500;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1vmax;
+    padding: 0.1vmax;
+    font: 400 1.5vmax "Tiro Tamil";
+    border-radius: 25px;
+    transition: all 0.5s;
+    border: 1px solid #FFA500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.googleSignUpBtn:hover,
+.googleLoginBtn:hover {
+    transform: scale(1.06);
+    color: white;
+    background-color: #FFA500;
+}
+
+.googleLoginBtn>svg,
+.googleSignUpBtn>svg {
+    position: relative;
+    top: 0.2vmax;
+    left: -1vmax;
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+    background-color: #d68e0a;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.shiftToLeft {
+    transform: translateX(-100%);
+}
+
+.shiftToNeutral {
+    transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+    transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight {
+    transform: translateX(100%);
+}
+
+
+@media screen and (max-width: 600px) and (max-width: 700px) {
+    .loginSignUpContainer {
+        margin-top: 13vmax;
+        background-color: white;
+    }
+
+    .loginSignUpBox {
+        width: 1000vw;
+        height: 95vh;
+    }
+
+    .login_signup_toggle {
+        height: 5vmax;
+    }
+
+    .login_signup_toggle>p {
+        font: 550 1.9vmax "Joan";
+    }
+
+    .loginForm,
+    .signUpForm {
+        padding: 5vmax;
+    }
+
+    .loginForm>div>input,
+    .signUpForm>div>input,
+    .signUpForm>div>select {
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax "Tiro Tamil";
+    }
+
+    .loginForm>div>svg,
+    .signUpForm>div>svg {
+        font-size: 2.7vmax;
+    }
+
+    .loginForm>a {
+        font: 300 1.8vmax "Tiro Tamil";
+    }
+
+    #registerImage>img {
+        width: 7vmax;
+    }
+
+    #registerImage>input::file-selector-button {
+        height: 7vh;
+        font: 400 1.8vmax "Tiro Tamil";
+    }
+
+    .loginBtn,
+    .signUpBtn {
+        font: 300 1.9vmax "Tiro Tamil";
+        padding: 1.8vmax;
+    }
+
+    .googleLoginBtn,
+    .googleSignUpBtn {
+        font: 400 2.5vmax "Tiro Tamil";
+    }
+
+    .googleLoginBtn>svg,
+    .googleSignUpBtn>svg {
+        position: relative;
+        top: 0.5vmax;
+        left: -2vmax;
+    }
+}
