@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <div class="contactInfo">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <span>101 New Street Road <br>
+                            Noida,New Delhi <br>
+                            100123
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope-open-text"></i></span>
+                        <span>example@baoiom.com</span>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-headset"></i></span>
+                        <span>+91-9945873110</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactForm">
+                <form action="sendurl" method="POST">
+                    <h2>Enquiry</h2>
+                    <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea required></textarea>
+                            <span>Write Your Query Here...</span>
+                        </div>
+                        <div class="inputBox w75">
+                            <input type="submit" value="Send">
+                        </div>
+                        <div class="inputBox w75">
+                            <input type="reset" value="Clear">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
