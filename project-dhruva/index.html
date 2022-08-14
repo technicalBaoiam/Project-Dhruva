@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baoiam Main Page</title>
+
+
+
+<link href="css/style.css" rel="stylesheet" >   
+<script src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<section>
+<nav class="navbar navbar-default navbar-expand-lg navbar-light">
+<div class="navbar-header">
+<a class="navbar-brand" href="#"><img class="navbarimg" src="images/lightlogo2.png"> </a>  		
+<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+<span class="navbar-toggler-icon"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<!-- Collection of nav links, forms, and other content for toggling -->
+<div id="navbarCollapse" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href="#">Home</a></li>
+<li><a href="aboutus.html">About</a></li>			
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Services <b class="caret"></b></a>
+<ul class="dropdown-menu">					
+	<li><a href="#">Web Design</a></li>
+	<li><a href="#">Web Development</a></li>
+	<li><a href="#">Graphic Design</a></li>
+	<li><a href="#">Digital Marketing</a></li>
+</ul>
+</li>
+<li class="active"><a href="#">Pricing</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<form class="navbar-form form-inline">
+<div class="input-group search-box">								
+<input type="text" id="search" class="form-control" placeholder="Search here...">
+<span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
+</div>
+</form>
+<ul class="nav navbar-nav navbar-right">			
+<li>
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Login</a>
+<ul class="dropdown-menu form-wrapper">					
+	<li>
+		<form action="/examples/actions/confirmation.php" method="post">
+			<p class="hint-text">Sign in with your social media account</p>
+			<div class="form-group social-btn clearfix">
+				<a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
+				<a href="#" class="btn btn-info pull-right"><i class="fa fa-twitter"></i> Twitter</a>
+			</div>
+			<div class="or-seperator"><b>or</b></div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Username" required="required">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password" required="required">
+			</div>
+			<input type="submit" class="btn btn-primary btn-block" value="Login">
+			<div class="form-footer">
+				<a href="#">Forgot Your password?</a>
+			</div>
+		</form>
+	</li>
+</ul>
+</li>
+<li>
+<a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1">Sign up</a>
+<ul class="dropdown-menu form-wrapper">					
+	<li>
+		<form action="/examples/actions/confirmation.php" method="post">
+			<p class="hint-text">Fill in this form to create your account!</p>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Username" required="required">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password" required="required">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Confirm Password" required="required">
+			</div>
+			<div class="form-group">
+				<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+			</div>
+			<input type="submit" class="btn btn-primary btn-block" value="Sign up">
+		</form>
+	</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</section>
+
+
+<!-- about section starts  -->
+<section>
+<div class="connntainer" style="background-color:#f1f1f1">
+	<div class="row">
+	<div class="column-33">
+	<img src="https://img.freepik.com/free-vector/creative-team-concept-illustration_114360-6488.jpg?w=996&t=st=1660371431~exp=1660372031~hmac=0f2f0bf286bdda698e87f9f664b505f25085521f16eecfe0282c58001ffc4cf9" alt="App" width="500" height="650">
+	</div>
+	<div class="column-66">
+	<h1 class="xlarge-font"><b>ABOUT US</b></h1>
+	<h1 class="large-font" style="color: orange;"><b>BAOIAM, who?</b></h1>
+	<p><span style="font-size:24px">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	<button class="btn" style="background-color:orange">Read More</button>
+	</div>
+</div>
+</div>
+
+</section>
+<!-- about section ends -->
+
+
+<!-- contact us section -->
+<section class="contact-us">
+	<div class="containeer">
+		<div class="contactInfo">
+			<h2>Contact Info</h2>
+			<ul class="info">
+				<li>
+					<span><i class="fa-solid fa-location-dot"></i></span>
+					<span>101 New Street Road <br>
+						Noida,New Delhi <br>
+						100123
+					</span>
+				</li>
+				<li>
+					<span><i class="fa-solid fa-envelope-open-text"></i></span>
+					<span>example@baoiom.com</span>
+				</li>
+				<li>
+					<span><i class="fa-solid fa-headset"></i></span>
+					<span>+91-9945873110</span>
+				</li>
+			</ul>
+		</div>
+		<div class="contactForm">
+			<form action="sendurl" method="POST">
+				<h2>Enquiry</h2>
+				<div class="formBox">
+					<div class="inputBox w50">
+						<input type="text" required>
+						<span>First Name</span>
+					</div>
+					<div class="inputBox w50">
+						<input type="text" required>
+						<span>Last Name</span>
+					</div>
+					<div class="inputBox w50">
+						<input type="email" required>
+						<span>Email Address</span>
+					</div>
+					<div class="inputBox w50">
+						<input type="text" required>
+						<span>Mobile Number</span>
+					</div>
+					<div class="inputBox w100">
+						<textarea required></textarea>
+						<span>Write Your Query Here...</span>
+					</div>
+					<div class="inputBox w75">
+						<input type="submit" value="Send">
+					</div>
+					<div class="inputBox w75">
+						<input type="reset" value="Clear">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+<!-- features section -->
+
+<section class="p-slider">
+<!-- heading -->
+<h3 class="product-slider-heading">Lorem ipsum <span class="heading-spa"> dolor sit</span> </h3>
+
+<!-- btn -->
+<div class="slider-btns">
+<button aria-label="Previous" class="glider-prev">
+<span></span>
+</button>
+<button aria-label="Next" class="glider-next">
+<span></span>
+</button>
+</div>
+
+<div class="glider-contain">
+<div class="glider">
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/premium-vector/realistic-background-with-open-book-butterflies_23-2147608604.jpg?w=740"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/purple-background-with-quiz-word-colorful-people_52683-126.jpg?w=740&t=st=1659598623~exp=1659599223~hmac=c8f26be493d5e2a5affaad9097966ca5bfba5dd350db1991dc2d48784ad1d2c3"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/quiz-background-with-items-flat-design_23-2147599082.jpg?w=740&t=st=1659598667~exp=1659599267~hmac=b124e8e11e9e57da133953d391b204cfe091a01485d61b4415295511d6d8d270"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/quiz-background-with-flat-objects_23-2147593080.jpg?w=740&t=st=1659598698~exp=1659599298~hmac=590d8eecfaa8f7c8c73ef9c7cfa4bcab3d2141ea1022de4d96a3d7067b9d1f72"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src=" https://img.freepik.com/free-vector/alien-astronaut-child-meeting-red-planet_107791-8671.jpg?w=1060&t=st=1659598750~exp=1659599350~hmac=a2d0785ceb30b339c3cac72f1ee3f31ff18019e2d3ab314a34c1776e6cce5a1b"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/cute-koala-space-pattern-kids-background_8830-649.jpg?w=740&t=st=1659598793~exp=1659599393~hmac=3d36a49bb211e3d86e6f8b1bf39c322bd8d044136992e97c2f23753d265d6303"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/flat-design-children-back-school_52683-44544.jpg?w=996&t=st=1659598847~exp=1659599447~hmac=226d68d5ef154266f74c048daf7f839f74183c0e9b72243c1ae44d199f250120"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://t3.ftcdn.net/jpg/05/03/54/38/240_F_503543805_dJaHzRRIKqzPuXVk2H5s6YOusv9Mz4oj.jpg"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/hand-drawn-world-book-day-banners_23-2148097102.jpg?w=740&t=st=1659598933~exp=1659599533~hmac=5d1574c393b829910f433a9b342889450f0a56d4b138cc713ea2e919e7bbb49b"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+
+<!-- products -->
+<div class="product-box">
+<!-- discount -->
+<span class="p-discount">-20%</span>
+
+<!-- img -->
+<div class="p-img-container">
+<div class="p-img">
+	<a href="#">
+	<img
+		src="https://img.freepik.com/free-vector/hand-drawn-world-book-day-background_23-2148094448.jpg?w=740&t=st=1659598971~exp=1659599571~hmac=c1e43686079b45fb513a538af8fe9146359c73df1c19a3465ac00a33bcd84ebf"
+		class="p-img-front"
+		alt="front"
+	/>
+	</a>
+</div>
+</div>
+<!-- texts -->
+<div class="p-box-text">
+<div class="product-category">
+	<span> Lorem, ipsum. </span>
+</div>
+<!-- title -->
+<a href="#" class="product-title">
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+	Maxime.
+</a>
+<!-- price -->
+<div class="price-buy">
+	<span class="p-price">12$/year</span>
+	<a href="#" class="p-buy-btn">Buy Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- chat bot -->
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+<form action="/action_page.php" class="form-container">
+<h1>Chat</h1>
+
+<label for="msg"><b>Message</b></label>
+<textarea placeholder="Type message.." name="msg" required></textarea>
+
+<button type="submit" class="btn">Send</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+</form>
+</div>
+
+
+
+<script>
+	
+!function(e){"function"==typeof define&&define.amd?define(e):"object"==typeof exports?module.exports=e():e()}(function(){var a="undefined"!=typeof window?window:this,e=a.Glider=function(e,t){var o=this;if(e._glider)return e._glider;if(o.ele=e,o.ele.classList.add("glider"),(o.ele._glider=o).opt=Object.assign({},{slidesToScroll:1,slidesToShow:1,resizeLock:!0,duration:.5,easing:function(e,t,o,i,r){return i*(t/=r)*t+o}},t),o.animate_id=o.page=o.slide=0,o.arrows={},o._opt=o.opt,o.opt.skipTrack)o.track=o.ele.children[0];else for(o.track=document.createElement("div"),o.ele.appendChild(o.track);1!==o.ele.children.length;)o.track.appendChild(o.ele.children[0]);o.track.classList.add("glider-track"),o.init(),o.resize=o.init.bind(o,!0),o.event(o.ele,"add",{scroll:o.updateControls.bind(o)}),o.event(a,"add",{resize:o.resize})},t=e.prototype;return t.init=function(e,t){var o,i=this,r=0,s=0,l=(i.slides=i.track.children,[].forEach.call(i.slides,function(e,t){e.classList.add("glider-slide"),e.setAttribute("data-gslide",t)}),i.containerWidth=i.ele.clientWidth,i.settingsBreakpoint());t=t||l,"auto"!==i.opt.slidesToShow&&void 0===i.opt._autoSlide||(o=i.containerWidth/i.opt.itemWidth,i.opt._autoSlide=i.opt.slidesToShow=i.opt.exactWidth?o:Math.max(1,Math.floor(o))),"auto"===i.opt.slidesToScroll&&(i.opt.slidesToScroll=Math.floor(i.opt.slidesToShow)),i.itemWidth=i.opt.exactWidth?i.opt.itemWidth:i.containerWidth/i.opt.slidesToShow,[].forEach.call(i.slides,function(e){e.style.height="auto",e.style.width=i.itemWidth+"px",r+=i.itemWidth,s=Math.max(e.offsetHeight,s)}),i.track.style.width=r+"px",i.trackWidth=r,i.isDrag=!1,i.preventClick=!1,i.move=!1,i.opt.resizeLock&&i.scrollTo(i.slide*i.itemWidth,0),(l||t)&&(i.bindArrows(),i.buildDots(),i.bindDrag()),i.updateControls(),i.emit(e?"refresh":"loaded")},t.bindDrag=function(){function e(){t.mouseDown=void 0,t.ele.classList.remove("drag"),t.isDrag&&(t.preventClick=!0),t.isDrag=!1}var t=this;t.mouse=t.mouse||t.handleMouse.bind(t);function o(){t.move=!0}var i={mouseup:e,mouseleave:e,mousedown:function(e){e.preventDefault(),e.stopPropagation(),t.mouseDown=e.clientX,t.ele.classList.add("drag"),t.move=!1,setTimeout(o,300)},touchstart:function(e){t.ele.classList.add("drag"),t.move=!1,setTimeout(o,300)},mousemove:t.mouse,click:function(e){t.preventClick&&t.move&&(e.preventDefault(),e.stopPropagation()),t.preventClick=!1,t.move=!1}};t.ele.classList.toggle("draggable",!0===t.opt.draggable),t.event(t.ele,"remove",i),t.opt.draggable&&t.event(t.ele,"add",i)},t.buildDots=function(){var e=this;if(e.opt.dots){if("string"==typeof e.opt.dots?e.dots=document.querySelector(e.opt.dots):e.dots=e.opt.dots,e.dots){e.dots.innerHTML="",e.dots.setAttribute("role","tablist"),e.dots.classList.add("glider-dots");for(var t=0;t<Math.ceil(e.slides.length/e.opt.slidesToShow);++t){var o=document.createElement("button");o.dataset.index=t,o.setAttribute("aria-label","Page "+(t+1)),o.setAttribute("role","tab"),o.className="glider-dot "+(t?"":"active"),e.event(o,"add",{click:e.scrollItem.bind(e,t,!0)}),e.dots.appendChild(o)}}}else e.dots&&(e.dots.innerHTML="")},t.bindArrows=function(){var o=this;o.opt.arrows?["prev","next"].forEach(function(e){var t=o.opt.arrows[e];(t=t&&("string"==typeof t?document.querySelector(t):t))&&(t._func=t._func||o.scrollItem.bind(o,e),o.event(t,"remove",{click:t._func}),o.event(t,"add",{click:t._func}),o.arrows[e]=t)}):Object.keys(o.arrows).forEach(function(e){e=o.arrows[e];o.event(e,"remove",{click:e._func})})},t.updateControls=function(e){var n=this,t=(e&&!n.opt.scrollPropagate&&e.stopPropagation(),n.containerWidth>=n.trackWidth),a=(n.opt.rewind||(n.arrows.prev&&(n.arrows.prev.classList.toggle("disabled",n.ele.scrollLeft<=0||t),n.arrows.prev.setAttribute("aria-disabled",n.arrows.prev.classList.contains("disabled"))),n.arrows.next&&(n.arrows.next.classList.toggle("disabled",Math.ceil(n.ele.scrollLeft+n.containerWidth)>=Math.floor(n.trackWidth)||t),n.arrows.next.setAttribute("aria-disabled",n.arrows.next.classList.contains("disabled")))),n.slide=Math.round(n.ele.scrollLeft/n.itemWidth),n.page=Math.round(n.ele.scrollLeft/n.containerWidth),n.slide+Math.floor(Math.floor(n.opt.slidesToShow)/2)),d=Math.floor(n.opt.slidesToShow)%2?0:a+1;1===Math.floor(n.opt.slidesToShow)&&(d=0),n.ele.scrollLeft+n.containerWidth>=Math.floor(n.trackWidth)&&(n.page=n.dots?n.dots.children.length-1:0),[].forEach.call(n.slides,function(e,t){var o=e.classList,e=o.contains("visible"),i=n.ele.scrollLeft,r=n.ele.scrollLeft+n.containerWidth,s=n.itemWidth*t,l=s+n.itemWidth,s=([].forEach.call(o,function(e){/^left|right/.test(e)&&o.remove(e)}),o.toggle("active",n.slide===t),a===t||d&&d===t?o.add("center"):(o.remove("center"),o.add([t<a?"left":"right",Math.abs(t-(!(t<a)&&d||a))].join("-"))),Math.ceil(s)>=Math.floor(i)&&Math.floor(l)<=Math.ceil(r));o.toggle("visible",s),s!==e&&n.emit("slide-"+(s?"visible":"hidden"),{slide:t})}),n.dots&&[].forEach.call(n.dots.children,function(e,t){e.classList.toggle("active",n.page===t)}),e&&n.opt.scrollLock&&(clearTimeout(n.scrollLock),n.scrollLock=setTimeout(function(){clearTimeout(n.scrollLock),.02<Math.abs(n.ele.scrollLeft/n.itemWidth-n.slide)&&(n.mouseDown||n.trackWidth>n.containerWidth+n.ele.scrollLeft&&n.scrollItem(n.getCurrentSlide()))},n.opt.scrollLockDelay||250))},t.getCurrentSlide=function(){return this.round(this.ele.scrollLeft/this.itemWidth)},t.scrollItem=function(e,t,o){o&&o.preventDefault();var i,r=this,s=e,o=(++r.animate_id,r.slide),l=!0===t?(e=Math.round(e*r.containerWidth/r.itemWidth))*r.itemWidth:("string"==typeof e&&(l="prev"===e,e=r.opt.slidesToScroll%1||r.opt.slidesToShow%1?r.getCurrentSlide():r.slide,l?e-=r.opt.slidesToScroll:e+=r.opt.slidesToScroll,r.opt.rewind&&(i=r.ele.scrollLeft,e=l&&!i?r.slides.length:!l&&i+r.containerWidth>=Math.floor(r.trackWidth)?0:e)),e=Math.max(Math.min(e,r.slides.length),0),r.slide=e,r.itemWidth*e);return r.emit("scroll-item",{prevSlide:o,slide:e}),r.scrollTo(l,r.opt.duration*Math.abs(r.ele.scrollLeft-l),function(){r.updateControls(),r.emit("animated",{value:s,type:"string"==typeof s?"arrow":t?"dot":"slide"})}),!1},t.settingsBreakpoint=function(){var e=this,t=e._opt.responsive;if(t){t.sort(function(e,t){return t.breakpoint-e.breakpoint});for(var o=0;o<t.length;++o){var i=t[o];if(a.innerWidth>=i.breakpoint)return e.breakpoint!==i.breakpoint&&(e.opt=Object.assign({},e._opt,i.settings),e.breakpoint=i.breakpoint,!0)}}var r=0!==e.breakpoint;return e.opt=Object.assign({},e._opt),e.breakpoint=0,r},t.scrollTo=function(t,o,i){var r=this,s=(new Date).getTime(),l=r.animate_id,n=function(){var e=(new Date).getTime()-s;r.ele.scrollLeft=r.ele.scrollLeft+(t-r.ele.scrollLeft)*r.opt.easing(0,e,0,1,o),e<o&&l===r.animate_id?a.requestAnimationFrame(n):(r.ele.scrollLeft=t,i&&i.call(r))};a.requestAnimationFrame(n)},t.removeItem=function(e){var t=this;t.slides.length&&(t.track.removeChild(t.slides[e]),t.refresh(!0),t.emit("remove"))},t.addItem=function(e){this.track.appendChild(e),this.refresh(!0),this.emit("add")},t.handleMouse=function(e){var t=this;t.mouseDown&&(t.isDrag=!0,t.ele.scrollLeft+=(t.mouseDown-e.clientX)*(t.opt.dragVelocity||3.3),t.mouseDown=e.clientX)},t.round=function(e){var t=1/(this.opt.slidesToScroll%1||1);return Math.round(e*t)/t},t.refresh=function(e){this.init(!0,e)},t.setOption=function(t,e){var o=this;o.breakpoint&&!e?o._opt.responsive.forEach(function(e){e.breakpoint===o.breakpoint&&(e.settings=Object.assign({},e.settings,t))}):o._opt=Object.assign({},o._opt,t),o.breakpoint=0,o.settingsBreakpoint()},t.destroy=function(){function e(t){t.removeAttribute("style"),[].forEach.call(t.classList,function(e){/^glider/.test(e)&&t.classList.remove(e)})}var t=this,o=t.ele.cloneNode(!0);o.children[0].outerHTML=o.children[0].innerHTML,e(o),[].forEach.call(o.getElementsByTagName("*"),e),t.ele.parentNode.replaceChild(o,t.ele),t.event(a,"remove",{resize:t.resize}),t.emit("destroy")},t.emit=function(e,t){e=new a.CustomEvent("glider-"+e,{bubbles:!this.opt.eventPropagate,detail:t});this.ele.dispatchEvent(e)},t.event=function(e,t,o){var i=e[t+"EventListener"].bind(e);Object.keys(o).forEach(function(e){i(e,o[e])})},e});
+
+
+
+
+
+new Glider(document.querySelector(".glider"), {
+	slidesToScroll: 1,
+	slidesToShow: 4,
+	draggable: true,
+	dots: ".dots",
+	arrows: {
+	prev: ".glider-prev",
+	next: ".glider-next",
+	},
+	
+	responsive: [
+	{
+	// screens greater than >= 775px
+	breakpoint: 1200,
+	settings: {
+	// Set to `auto` and provide item width to adjust to viewport
+	slidesToShow: 4,
+	slidesToScroll: 2,
+	},
+	},
+	{
+	// screens greater than >= 1024px
+	breakpoint: 900,
+	settings: {
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	},
+	},
+	{
+	// screens greater than >= 1024px
+	breakpoint: 640,
+	settings: {
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	},
+	},
+	{
+	// screens greater than >= 1024px
+	breakpoint: 304,
+	settings: {
+	slidesToShow: 1.5,
+	slidesToScroll: 1,
+	},
+	},
+	{
+	// screens greater than >= 1024px
+	breakpoint: 0,
+	settings: {
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	},
+	},
+	],
+	});
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+<div class="coontainer">
+<div class="rrow">
+<div class="footer-col">
+<h4>company</h4>
+<ul class="ul">
+<li><a href="#">about us</a></li>
+<li><a href="#">our services</a></li>
+<li><a href="#">privacy policy</a></li>
+<li><a href="#">affiliate program</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>get help</h4>
+<ul class="ul">
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Our team</a></li>
+<li><a href="#">Your profile</a></li>
+<li><a href="#">status</a></li>
+<li><a href="#">payment options</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>online Websites</h4>
+<ul class="ul">
+<li><a href="#">watch</a></li>
+<li><a href="#">youtube</a></li>
+<li><a href="#">cources</a></li>
+<li><a href="#">Tests</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>follow us</h4>
+<div class="social-links">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
